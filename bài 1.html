@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Interactive Image Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+             alt="Beautiful Mountain"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+             alt="Beautiful Landscape"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+             alt="Beautiful Beach"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969"
+             alt="Beautiful Forest"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+             alt="Snowy Mountains"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+             alt="Green Nature"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
